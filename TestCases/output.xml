@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181207 09:58:02.873" generator="Robot 3.1 (Python 3.5.2 on linux)" rpa="false">
+<suite source="/home/stas/PycharmProjects/robot_hello_world/TestCases/TC_001_Start_Close_Browser.robot" name="TC 001 Start Close Browser" id="s1">
+<test name="TC_001 Browser Start and Close" id="s1-t1">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20181207 09:58:02.998" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com'.</msg>
+<status status="PASS" endtime="20181207 09:58:05.650" starttime="20181207 09:58:02.998"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20181207 09:58:05.706" starttime="20181207 09:58:05.650"></status>
+</kw>
+<status status="PASS" endtime="20181207 09:58:05.706" critical="yes" starttime="20181207 09:58:02.997"></status>
+</test>
+<status status="PASS" endtime="20181207 09:58:05.707" starttime="20181207 09:58:02.874"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" name="TC 001 Start Close Browser" pass="1" id="s1">TC 001 Start Close Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
